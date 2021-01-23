@@ -1,0 +1,8 @@
+.Button {background: grey;
+         color: white;
+         font-family: monospace;}
+
+.readonly {font-size: 40px;}
+
+input:checked + span {background: black;
+                      color: white;}

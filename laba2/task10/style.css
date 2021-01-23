@@ -1,0 +1,17 @@
+.red {border: 2px solid red;
+      height: 100px;
+      width: 100px;}
+
+.blue {border: 2px solid blue;
+       height: 100px;
+       width: 100px;
+       position: relative;
+       top: 20px;
+       left: 130px;}
+
+.green {border: 2px solid green;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: 40px;
+        left: 260px;}

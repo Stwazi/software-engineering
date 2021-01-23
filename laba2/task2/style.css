@@ -1,0 +1,4 @@
+.bold {font-weight: bold} /* полужирный */
+.oblique {font-style: oblique;} /* курсив */
+.underline {text-decoration: underline} /* подчеркивание */
+.line-through {text-decoration: line-through;} /* зачеркивание */

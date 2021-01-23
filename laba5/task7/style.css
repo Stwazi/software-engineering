@@ -1,0 +1,18 @@
+body {background: linear-gradient(to right, #00AAFF, #00FF6C);}
+
+.actions {text-align: center;}
+
+.ai {background-image: url('./img/ai.jpg');}
+
+.container {margin: 50px auto;
+            width: 300px;}
+
+.cell {background-color: white;
+       border: 2px solid black;
+       float: left;
+       height: 96px;
+       width: 96px;}
+
+.cell:hover {border-color: red;}
+
+.player {background-image: url('./img/player.jpg');}

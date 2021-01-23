@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laba5</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <p><input type="button" value="Задание 1" onclick="task1()"></p>
+    <h3>Задание 2</h3>
+    <input type="text" id="task2" placeholder="рандомное число 0-10">
+    <input type="button" onclick="task2()" value="тык">
+    <h3>Задание 3</h3>
+    <div>
+        <p>
+            <input type="text" placeholder="Введите текст" id="text_field1">
+            <input style="width: 370px;" type="text" placeholder="Нажмите скопировать чтобы узнать, что делает это поле" id="text_field2" disabled>
+        </p>
+        <input type="button" name="task3_copy" onclick="task3_copy()" value="Cкопировать">
+		<input type="button" name="task3_clear" onclick="task3_clear()" value="Стереть">
+	</div>
+    <h3>Задание 4</h3>
+    <p>
+        <input type="number" id="columns" placeholder="Введите кол-во столбцов в таблице">
+        <input type="number" id="rows" placeholder="Введите кол-во строк в таблице">
+    </p>
+    <input type="button" value="Создать таблицу" onclick="task4_table_creation()">
+    <div id="elem"></div>
+    <img src="tokio_ghoul.png">
+</body>
+</html>

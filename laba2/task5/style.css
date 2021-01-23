@@ -1,0 +1,11 @@
+table {border-collapse: collapse;}
+
+td {border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-size: 12px;
+    text-align: center;}
+
+.zagolovok {font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;}
